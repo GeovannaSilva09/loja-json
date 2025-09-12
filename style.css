@@ -42,9 +42,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+}
 
-
+.logo{
+    height: 100px;
+    width: 100px;
 }
 
 .container {
@@ -52,9 +54,22 @@ header{
     justify-content: space-between;
     align-items: center;
     justify-items: center;
+    
     gap: 50px;
     background-color: aquamarine;
    
+}
+.container a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .login {
@@ -87,9 +102,8 @@ header{
 .user img {
     height: 30px;
     width: 30px;
-    
-
 }
+
 
 
 
