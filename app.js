@@ -1,5 +1,5 @@
 import produtos from './produtos.json' with { type: 'json' }
-const container = document.getElementById("container")
+const container = document.querySelector(".container-json")
 
 let grupoDiv // variável para armazenar a div atual
 

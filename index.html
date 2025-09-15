@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" type="module"></script>
     <title>Temu</title>
 </head>
 
@@ -64,11 +65,11 @@
             <div class="login">
 
                 <div class="lupa">
-                    <input type="search" id="pesquisa" placeholder="Mochila Escolar">
+                    <input class="search" type="search" id="pesquisa" placeholder="Mochila Escolar">
                     <img src="./img/lupa-branca.svg" alt="Pesquisar">
                 </div>
 
-                <div class="user">
+                <div class="icon-direita">
                     <img src="./img/user.png" alt="Botão de login" id="usuario">
                     <div>
                         <a href="#">Login/Cadastrar-se <br>
@@ -76,12 +77,12 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="icon-direita">
                     <img src="./img/atendimento.png" alt="Atendimento">
                     <a href="#">Atendimento</a>
                 </div>
 
-                <div>
+                <div>0
                     <img src="./img/carrinho.png" alt="Carrinho de Compras">
                 </div>
 
@@ -93,7 +94,9 @@
         <!-- Fechando container -->
     </header>
 
-    <main></main>
+    <main>
+        <div class="container-json"></div>
+    </main>
 
     <footer></footer>
 
