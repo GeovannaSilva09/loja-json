@@ -5,7 +5,7 @@ let grupoDiv // variável para armazenar a div atual
 
 produtos.forEach((produto, index) => {
   // A cada 5 produtos cria uma nova div
-  if (index % 4 === 0) {
+  if (index % 5 === 0) {
     grupoDiv = document.createElement("div")
     grupoDiv.classList.add("caixa")
     container.appendChild(grupoDiv)
